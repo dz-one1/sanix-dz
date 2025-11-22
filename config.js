@@ -1,75 +1,38 @@
 const STORE_CONFIG = {
   "PRODUCTS": {
-    "6": {
-      "name": "ensemble nike",
-      "price": 5800,
-      "image": "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/product-6-1763845477652.jpg",
-      "description": "ensemble nike  دو  جودة عالية",
+    "5": {
+      "name": "ddssd",
+      "price": 2222,
+      "image": "https://raw.githubusercontent.com/Dz-Store/My-TTC/main/images/product-5-1763830282318.jpg",
+      "description": "",
       "availableSizes": [
         "S",
-        "M",
-        "L",
-        "XL"
+        "S1",
+        "S2"
       ],
       "availableColors": [
         "أسود",
         "رمادي"
       ],
-      "ageRanges": [],
+      "ageRanges": [
+        {
+          "ageFrom": "A",
+          "ageTo": "A",
+          "size": "XXXL"
+        }
+      ],
       "colorImages": {
         "أسود": {
           "images": [
-            "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/product-6-أسود-1763845518684.jpg"
+            "https://raw.githubusercontent.com/Dz-Store/My-TTC/main/images/product-5-أسود-1763830177600.jpg"
           ],
-          "ageRanges": [
-            {
-              "ageFrom": "A",
-              "ageTo": "A",
-              "size": "S"
-            },
-            {
-              "ageFrom": "A",
-              "ageTo": "A",
-              "size": "M"
-            },
-            {
-              "ageFrom": "A",
-              "ageTo": "A",
-              "size": "L"
-            },
-            {
-              "ageFrom": "A",
-              "ageTo": "A",
-              "size": "XL"
-            }
-          ]
+          "ageRanges": []
         },
         "رمادي": {
           "images": [
-            "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/product-6-رمادي-1763845569229.jpg"
+            "https://raw.githubusercontent.com/Dz-Store/My-TTC/main/images/product-5-رمادي-1763831372225.jpg"
           ],
-          "ageRanges": [
-            {
-              "ageFrom": "A",
-              "ageTo": "A",
-              "size": "S"
-            },
-            {
-              "ageFrom": "A",
-              "ageTo": "A",
-              "size": "M"
-            },
-            {
-              "ageFrom": "A",
-              "ageTo": "A",
-              "size": "L"
-            },
-            {
-              "ageFrom": "A",
-              "ageTo": "A",
-              "size": "XL"
-            }
-          ]
+          "ageRanges": []
         }
       }
     }
@@ -310,12 +273,12 @@ const STORE_CONFIG = {
   },
   "DISCOUNTS": {
     "minQuantityForDiscount": 1,
-    "discountPerItem": 800,
+    "discountPerItem": 400,
     "discountScope": "selected",
-    "discountProducts": [
-      6
+    "discountProducts": [],
+    "promoDiscountProducts": [
+      5
     ],
-    "promoDiscountProducts": [],
     "enableQuantityDiscount": true,
     "enablePromotionalDiscount": false,
     "promotionalDiscountPercent": 20,
@@ -329,21 +292,21 @@ const STORE_CONFIG = {
   "STORE_INFO": {
     "name": "SANIX-DZ",
     "storeIcon": "👑",
-    "storeTitle": "baggy jogger NIKE + tshirt   NIKE",
-    "tagline": "baggy jogger NIKE + tshirt   NIKE",
+    "storeTitle": "الملابس الأعلى مبيعا",
+    "tagline": "الملابس الأكثر مبيعا",
     "phoneNumbers": [
-      "0795511986",
-      "0778506974"
+      "0671466489",
+      "0551102155"
     ],
-    "facebookUrl": "",
-    "instagramUrl": "",
-    "messengerUrl": "",
-    "viberNumber": "",
+    "facebookUrl": "https://www.facebook.com/share/r/1AUYY5favq/",
+    "instagramUrl": "https://www.instagram.com/p/DJCtlffoxj9/?igsh=MWoyaGFkYXRicmJrMQ==",
+    "messengerUrl": "https://www.instagram.com/p/DJCtlffoxj9/?igsh=MWoyaGFkYXRicmJrMQ==",
+    "viberNumber": "https://www.instagram.com/p/DJCtlffoxj9/?igsh=MWoyaGFkYXRicmJrMQ==",
     "logo": "https://raw.githubusercontent.com/Dz-Store/WER/main/images/store-logo-1763217953279-Screenshot_20250903-115403_Facebook.jpg",
     "storeEmail": "benaakrabahcene@gmail.com",
     "storeDescription": "متجر Kids-Fav يقدم أحدث وأفخم موديلات ملابس الأطفال بتصاميم عصرية وأنيقة تناسب جميع المناسبات",
-    "whatsappUrl": "https://wa.me/0795511986",
-    "whatsappNumber": "0795511986"
+    "whatsappUrl": "https://wa.me/213671466489",
+    "whatsappNumber": "213671466489"
   },
   "GOOGLE_SHEETS": {
     "enabled": true,
