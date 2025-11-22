@@ -3881,7 +3881,8 @@ function reloadProductManagementWithActiveTab(productId, activeColor = null) {
 
         // تحديث عرض المستودع الحالي
         function updateCurrentRepoDisplay() {
-             validateDefautlRepo();
+    validateDefaultRepo(); // التحقق من الصحة أولاً
+    
     const displayElement = document.getElementById('currentRepoDisplay');
     const repoNameElement = document.getElementById('currentRepoName');
     
@@ -3890,17 +3891,9 @@ function reloadProductManagementWithActiveTab(productId, activeColor = null) {
     if (currentRepo && tokens[currentRepo]) {
         repoNameElement.textContent = currentRepo;
         displayElement.style.display = 'flex';
-        
-        // إخفاء زر إضافة التوكن وتبويب الإدارة
-        document.querySelector('.token-management').style.display = 'none';
-        document.querySelector('.tab[onclick="switchTab(\'tokens\')"]').style.display = 'none';
     } else {
         repoNameElement.textContent = 'لم يتم اختيار مستودع';
         displayElement.style.display = 'flex';
-        
-        // إظهار زر إضافة التوكن وتبويب الإدارة
-        document.querySelector('.token-management').style.display = 'block';
-        document.querySelector('.tab[onclick="switchTab(\'tokens\')"]').style.display = 'flex';
     }
 }
 
