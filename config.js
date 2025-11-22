@@ -1,46 +1,10 @@
 const STORE_CONFIG = {
   "PRODUCTS": {
-    "5": {
-      "name": "ddssd",
-      "price": 2222,
-      "image": "https://raw.githubusercontent.com/Dz-Store/My-TTC/main/images/product-5-1763830282318.jpg",
-      "description": "",
-      "availableSizes": [
-        "S",
-        "S1",
-        "S2"
-      ],
-      "availableColors": [
-        "أسود",
-        "رمادي"
-      ],
-      "ageRanges": [
-        {
-          "ageFrom": "A",
-          "ageTo": "A",
-          "size": "XXXL"
-        }
-      ],
-      "colorImages": {
-        "أسود": {
-          "images": [
-            "https://raw.githubusercontent.com/Dz-Store/My-TTC/main/images/product-5-أسود-1763830177600.jpg"
-          ],
-          "ageRanges": []
-        },
-        "رمادي": {
-          "images": [
-            "https://raw.githubusercontent.com/Dz-Store/My-TTC/main/images/product-5-رمادي-1763831372225.jpg"
-          ],
-          "ageRanges": []
-        }
-      }
-    },
     "6": {
       "name": "ensemble nike",
       "price": 5800,
       "image": "",
-      "description": "",
+      "description": "ensemble begger nike ",
       "availableSizes": [
         "S",
         "M",
@@ -48,7 +12,8 @@ const STORE_CONFIG = {
         "XL"
       ],
       "availableColors": [
-        "أسود"
+        "أسود",
+        "رمادي"
       ],
       "ageRanges": [],
       "colorImages": {
@@ -345,12 +310,12 @@ const STORE_CONFIG = {
   },
   "DISCOUNTS": {
     "minQuantityForDiscount": 1,
-    "discountPerItem": 400,
+    "discountPerItem": 800,
     "discountScope": "selected",
-    "discountProducts": [],
-    "promoDiscountProducts": [
-      5
+    "discountProducts": [
+      6
     ],
+    "promoDiscountProducts": [],
     "enableQuantityDiscount": true,
     "enablePromotionalDiscount": false,
     "promotionalDiscountPercent": 20,
@@ -374,7 +339,7 @@ const STORE_CONFIG = {
     "instagramUrl": "https://www.instagram.com/p/DJCtlffoxj9/?igsh=MWoyaGFkYXRicmJrMQ==",
     "messengerUrl": "https://www.instagram.com/p/DJCtlffoxj9/?igsh=MWoyaGFkYXRicmJrMQ==",
     "viberNumber": "https://www.instagram.com/p/DJCtlffoxj9/?igsh=MWoyaGFkYXRicmJrMQ==",
-    "logo": "https://raw.githubusercontent.com/Dz-Store/WER/main/images/store-logo-1763217953279-Screenshot_20250903-115403_Facebook.jpg",
+    "logo": "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/product-store-logo-1763847608230.jpg",
     "storeEmail": "benaakrabahcene@gmail.com",
     "storeDescription": "متجر Kids-Fav يقدم أحدث وأفخم موديلات ملابس الأطفال بتصاميم عصرية وأنيقة تناسب جميع المناسبات",
     "whatsappUrl": "https://wa.me/213671466489",
