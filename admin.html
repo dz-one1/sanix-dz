@@ -3881,6 +3881,7 @@ function reloadProductManagementWithActiveTab(productId, activeColor = null) {
 
         // تحديث عرض المستودع الحالي
         function updateCurrentRepoDisplay() {
+             validateDefautlRepo();
     const displayElement = document.getElementById('currentRepoDisplay');
     const repoNameElement = document.getElementById('currentRepoName');
     
@@ -3905,18 +3906,23 @@ function reloadProductManagementWithActiveTab(productId, activeColor = null) {
 
         // الحصول على المستودع الافتراضي
         function getDefaultRepo() {
-    // استخدام localStorage المباشر
-    const currentTokens = JSON.parse(localStorage.getItem('github_tokens') || '{}');
-    const currentDefaultRepo = localStorage.getItem('default_repo') || '';
+    // تحديث tokens من localStorage أولاً
+    tokens = JSON.parse(localStorage.getItem('github_tokens') || '{}');
     
-    if (currentDefaultRepo && currentTokens[currentDefaultRepo]) {
+    // الحصول على المستودع الافتراضي
+    let currentDefaultRepo = localStorage.getItem('default_repo') || '';
+    
+    // التحقق من وجود التوكن للمستودع الافتراضي
+    if (currentDefaultRepo && tokens[currentDefaultRepo]) {
         return currentDefaultRepo;
     }
     
-    const availableRepos = Object.keys(currentTokens);
+    // إذا لم يكن المستودع الافتراضي صالحاً، استخدم أول مستودع متاح
+    const availableRepos = Object.keys(tokens);
     if (availableRepos.length > 0) {
         const newDefault = availableRepos[0];
         localStorage.setItem('default_repo', newDefault);
+        defaultRepo = newDefault; // تحديث المتغير المحلي
         return newDefault;
     }
     
@@ -3924,16 +3930,36 @@ function reloadProductManagementWithActiveTab(productId, activeColor = null) {
 }
 
 
+
         // حفظ المستودع الافتراضي
         function setDefaultRepo(repo) {
-            if (tokens[repo]) {
-                defaultRepo = repo;
-                localStorage.setItem('default_repo', defaultRepo);
-                updateCurrentRepoDisplay();
-                showNotification(`تم تعيين ${repo} كمستودع افتراضي`, 'success');
-            }
-        }
+    if (tokens[repo]) {
+        defaultRepo = repo; // تحديث المتغير المحلي
+        localStorage.setItem('default_repo', repo); // تحديث localStorage
+        updateCurrentRepoDisplay();
+        showNotification(`تم تعيين ${repo} كمستودع افتراضي`, 'success');
+        
+        // إعادة تحميل القوائم إذا لزم الأمر
+        loadTokensList();
+    }
+}
 
+        function validateDefaultRepo() {
+    const currentRepo = localStorage.getItem('default_repo');
+    const currentTokens = JSON.parse(localStorage.getItem('github_tokens') || '{}');
+    
+    if (!currentRepo || !currentTokens[currentRepo]) {
+        // إذا كان المستودع الافتراضي غير صالح، ابحث عن بديل
+        const availableRepos = Object.keys(currentTokens);
+        if (availableRepos.length > 0) {
+            setDefaultRepo(availableRepos[0]);
+        } else {
+            localStorage.removeItem('default_repo');
+            defaultRepo = '';
+        }
+    }
+}
+        
         // المزامنة السريعة - باستخدام المستودع الافتراضي
         async function quickSaveAllSettings() {
             const repo = getDefaultRepo();
@@ -4195,7 +4221,7 @@ function reloadProductManagementWithActiveTab(productId, activeColor = null) {
         // تحميل الإعدادات
         function loadSettings() {
             loadConfig();
-            
+            validateDefautlRepo();
             CONFIG = STORE_CONFIG;
             loadProductsManagement();
             loadWilayasList();
@@ -5128,6 +5154,7 @@ async function uploadStoreLogo() {
 document.addEventListener('DOMContentLoaded', function() {
     loadConfig();
     checkAuthentication();
+    validateDefaultRepo(); // التحقق من صحة المستودع الافتراضي
     
     window.addEventListener('configUpdated', function(event) {
         console.log('🔄 تم استقبال حدث تحديث الإعدادات');
@@ -5135,6 +5162,7 @@ document.addEventListener('DOMContentLoaded', function() {
         loadSettings();
     });
 });
+
          // =============================================================================
     // 🔧 التحكم في إظهار وإخفاء زر إضافة التوكن
     // =============================================================================
