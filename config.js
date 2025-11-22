@@ -1,9 +1,9 @@
 const STORE_CONFIG = {
   "PRODUCTS": {
-    "5": {
+    "6": {
       "name": "ensemble nike",
       "price": 5800,
-      "image": "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/product-5-1763841699009.jpg",
+      "image": "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/product-6-1763845477652.jpg",
       "description": "ensemble nike  دو  جودة عالية",
       "availableSizes": [
         "S",
@@ -15,25 +15,61 @@ const STORE_CONFIG = {
         "أسود",
         "رمادي"
       ],
-      "ageRanges": [
-        {
-          "ageFrom": "A",
-          "ageTo": "A",
-          "size": "XXXL"
-        }
-      ],
+      "ageRanges": [],
       "colorImages": {
         "أسود": {
           "images": [
-            "https://raw.githubusercontent.com/Dz-Store/My-TTC/main/images/product-5-أسود-1763830177600.jpg"
+            "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/product-6-أسود-1763845518684.jpg"
           ],
-          "ageRanges": []
+          "ageRanges": [
+            {
+              "ageFrom": "A",
+              "ageTo": "A",
+              "size": "S"
+            },
+            {
+              "ageFrom": "A",
+              "ageTo": "A",
+              "size": "M"
+            },
+            {
+              "ageFrom": "A",
+              "ageTo": "A",
+              "size": "L"
+            },
+            {
+              "ageFrom": "A",
+              "ageTo": "A",
+              "size": "XL"
+            }
+          ]
         },
         "رمادي": {
           "images": [
-            "https://raw.githubusercontent.com/Dz-Store/My-TTC/main/images/product-5-رمادي-1763831372225.jpg"
+            "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/product-6-رمادي-1763845569229.jpg"
           ],
-          "ageRanges": []
+          "ageRanges": [
+            {
+              "ageFrom": "A",
+              "ageTo": "A",
+              "size": "S"
+            },
+            {
+              "ageFrom": "A",
+              "ageTo": "A",
+              "size": "M"
+            },
+            {
+              "ageFrom": "A",
+              "ageTo": "A",
+              "size": "L"
+            },
+            {
+              "ageFrom": "A",
+              "ageTo": "A",
+              "size": "XL"
+            }
+          ]
         }
       }
     }
@@ -277,7 +313,7 @@ const STORE_CONFIG = {
     "discountPerItem": 800,
     "discountScope": "selected",
     "discountProducts": [
-      5
+      6
     ],
     "promoDiscountProducts": [],
     "enableQuantityDiscount": true,
