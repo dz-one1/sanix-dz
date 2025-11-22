@@ -3,7 +3,7 @@ const STORE_CONFIG = {
     "6": {
       "name": "ensemble nike",
       "price": 5800,
-      "image": "",
+      "image": "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/product-6-1763847937638.jpg",
       "description": "ensemble begger nike ",
       "availableSizes": [
         "S",
