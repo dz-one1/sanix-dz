@@ -635,7 +635,7 @@ const STORE_CONFIG = {
   },
   "GITHUB_INTEGRATION": {
     "enabled": true,
-    "defaultRepo": "Dz-Store/WER",
+    "defaultRepo": "dz-one1/sanix-dz",
     "defaultBranch": "main",
     "defaultFolder": "images"
   },
