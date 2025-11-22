@@ -3,7 +3,7 @@ const STORE_CONFIG = {
     "5": {
       "name": "ddssd",
       "price": 2222,
-      "image": "https://raw.githubusercontent.com/Dz-Store/My-TTC/main/images/product-5-1763830282318.jpg",
+      "image": "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/product-5-1763830282318.jpg",
       "description": "",
       "availableSizes": [
         "S",
@@ -24,13 +24,13 @@ const STORE_CONFIG = {
       "colorImages": {
         "أسود": {
           "images": [
-            "https://raw.githubusercontent.com/Dz-Store/My-TTC/main/images/product-5-أسود-1763830177600.jpg"
+            "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/product-5-أسود-1763830177600.jpg"
           ],
           "ageRanges": []
         },
         "رمادي": {
           "images": [
-            "https://raw.githubusercontent.com/Dz-Store/My-TTC/main/images/product-5-رمادي-1763831372225.jpg"
+            "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/product-5-رمادي-1763831372225.jpg"
           ],
           "ageRanges": []
         }
