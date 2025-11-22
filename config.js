@@ -35,6 +35,78 @@ const STORE_CONFIG = {
           "ageRanges": []
         }
       }
+    },
+    "6": {
+      "name": "ensemble nike",
+      "price": 5800,
+      "image": "",
+      "description": "",
+      "availableSizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "availableColors": [
+        "أسود"
+      ],
+      "ageRanges": [],
+      "colorImages": {
+        "أسود": {
+          "images": [
+            "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/product-6-أسود-1763847371770.jpg"
+          ],
+          "ageRanges": [
+            {
+              "ageFrom": "A",
+              "ageTo": "A",
+              "size": "S"
+            },
+            {
+              "ageFrom": "A",
+              "ageTo": "A",
+              "size": "M"
+            },
+            {
+              "ageFrom": "A",
+              "ageTo": "A",
+              "size": "L"
+            },
+            {
+              "ageFrom": "A",
+              "ageTo": "A",
+              "size": "XL"
+            }
+          ]
+        },
+        "رمادي": {
+          "images": [
+            "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/product-6-رمادي-1763847452898.jpg"
+          ],
+          "ageRanges": [
+            {
+              "ageFrom": "A",
+              "ageTo": "A",
+              "size": "S"
+            },
+            {
+              "ageFrom": "A",
+              "ageTo": "A",
+              "size": "M"
+            },
+            {
+              "ageFrom": "A",
+              "ageTo": "A",
+              "size": "L"
+            },
+            {
+              "ageFrom": "A",
+              "ageTo": "A",
+              "size": "XL"
+            }
+          ]
+        }
+      }
     }
   },
   "DELIVERY_PRICES": {
