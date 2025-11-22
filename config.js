@@ -1,14 +1,15 @@
 const STORE_CONFIG = {
   "PRODUCTS": {
     "5": {
-      "name": "how",
-      "price": 2222,
-      "image": "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/product-5-1763836597942.jpg",
-      "description": "",
+      "name": "ensemble nike",
+      "price": 5800,
+      "image": "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/product-5-1763841699009.jpg",
+      "description": "ensemble nike  دو  جودة عالية",
       "availableSizes": [
         "S",
-        "S1",
-        "S2"
+        "M",
+        "L",
+        "XL"
       ],
       "availableColors": [
         "أسود",
@@ -26,13 +27,55 @@ const STORE_CONFIG = {
           "images": [
             "https://raw.githubusercontent.com/Dz-Store/My-TTC/main/images/product-5-أسود-1763830177600.jpg"
           ],
-          "ageRanges": []
+          "ageRanges": [
+            {
+              "ageFrom": "A",
+              "ageTo": "A",
+              "size": "S"
+            },
+            {
+              "ageFrom": "A",
+              "ageTo": "A",
+              "size": "M"
+            },
+            {
+              "ageFrom": "A",
+              "ageTo": "A",
+              "size": "L"
+            },
+            {
+              "ageFrom": "A",
+              "ageTo": "A",
+              "size": "XL"
+            }
+          ]
         },
         "رمادي": {
           "images": [
             "https://raw.githubusercontent.com/Dz-Store/My-TTC/main/images/product-5-رمادي-1763831372225.jpg"
           ],
-          "ageRanges": []
+          "ageRanges": [
+            {
+              "ageFrom": "A",
+              "ageTo": "A",
+              "size": "S"
+            },
+            {
+              "ageFrom": "A",
+              "ageTo": "A",
+              "size": "M"
+            },
+            {
+              "ageFrom": "A",
+              "ageTo": "A",
+              "size": "L"
+            },
+            {
+              "ageFrom": "A",
+              "ageTo": "A",
+              "size": "XL"
+            }
+          ]
         }
       }
     }
@@ -273,12 +316,12 @@ const STORE_CONFIG = {
   },
   "DISCOUNTS": {
     "minQuantityForDiscount": 1,
-    "discountPerItem": 400,
+    "discountPerItem": 800,
     "discountScope": "selected",
-    "discountProducts": [],
-    "promoDiscountProducts": [
+    "discountProducts": [
       5
     ],
+    "promoDiscountProducts": [],
     "enableQuantityDiscount": true,
     "enablePromotionalDiscount": false,
     "promotionalDiscountPercent": 20,
@@ -292,21 +335,21 @@ const STORE_CONFIG = {
   "STORE_INFO": {
     "name": "SANIX-DZ",
     "storeIcon": "👑",
-    "storeTitle": "الملابس الأعلى مبيعا",
-    "tagline": "الملابس الأكثر مبيعا",
+    "storeTitle": "baggy jogger NIKE + tshirt   NIKE",
+    "tagline": "baggy jogger NIKE + tshirt   NIKE",
     "phoneNumbers": [
-      "0671466489",
-      "0551102155"
+      "0795511986",
+      "0778506974"
     ],
-    "facebookUrl": "https://www.facebook.com/share/r/1AUYY5favq/",
-    "instagramUrl": "https://www.instagram.com/p/DJCtlffoxj9/?igsh=MWoyaGFkYXRicmJrMQ==",
-    "messengerUrl": "https://www.instagram.com/p/DJCtlffoxj9/?igsh=MWoyaGFkYXRicmJrMQ==",
-    "viberNumber": "https://www.instagram.com/p/DJCtlffoxj9/?igsh=MWoyaGFkYXRicmJrMQ==",
+    "facebookUrl": "",
+    "instagramUrl": "",
+    "messengerUrl": "",
+    "viberNumber": "",
     "logo": "https://raw.githubusercontent.com/Dz-Store/WER/main/images/store-logo-1763217953279-Screenshot_20250903-115403_Facebook.jpg",
     "storeEmail": "benaakrabahcene@gmail.com",
     "storeDescription": "متجر Kids-Fav يقدم أحدث وأفخم موديلات ملابس الأطفال بتصاميم عصرية وأنيقة تناسب جميع المناسبات",
-    "whatsappUrl": "https://wa.me/213671466489",
-    "whatsappNumber": "213671466489"
+    "whatsappUrl": "https://wa.me/0795511986",
+    "whatsappNumber": "0795511986"
   },
   "GOOGLE_SHEETS": {
     "enabled": true,
