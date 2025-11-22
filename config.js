@@ -329,16 +329,16 @@ const STORE_CONFIG = {
   "STORE_INFO": {
     "name": "SANIX-DZ",
     "storeIcon": "👑",
-    "storeTitle": "الملابس الأعلى مبيعا",
-    "tagline": "الملابس الأكثر مبيعا",
+    "storeTitle": "Ensemble bigger Nike",
+    "tagline": "Ensemble bigger Nike",
     "phoneNumbers": [
       "0671466489",
       "0551102155"
     ],
-    "facebookUrl": "https://www.facebook.com/share/r/1AUYY5favq/",
-    "instagramUrl": "https://www.instagram.com/p/DJCtlffoxj9/?igsh=MWoyaGFkYXRicmJrMQ==",
-    "messengerUrl": "https://www.instagram.com/p/DJCtlffoxj9/?igsh=MWoyaGFkYXRicmJrMQ==",
-    "viberNumber": "https://www.instagram.com/p/DJCtlffoxj9/?igsh=MWoyaGFkYXRicmJrMQ==",
+    "facebookUrl": "",
+    "instagramUrl": "",
+    "messengerUrl": "",
+    "viberNumber": "",
     "logo": "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/product-store-logo-1763847608230.jpg",
     "storeEmail": "benaakrabahcene@gmail.com",
     "storeDescription": "متجر Kids-Fav يقدم أحدث وأفخم موديلات ملابس الأطفال بتصاميم عصرية وأنيقة تناسب جميع المناسبات",
