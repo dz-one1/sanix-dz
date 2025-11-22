@@ -3172,7 +3172,7 @@ function reloadProductManagementWithActiveTab(productId, activeColor = null) {
                 if (tokenConfig && repo) {
                     configUrl = `https://raw.githubusercontent.com/${tokenConfig.username}/${repo}/${tokenConfig.branch || 'main'}/config.js?t=${Date.now()}`;
                 } else {
-                    configUrl = 'https://raw.githubusercontent.com/Dz-Store/My-TTC/main/config.js?t=' + Date.now();
+                    configUrl = 'https://raw.githubusercontent.com/dz-one1/sanix-dz/main/config.js?t=' + Date.now();
                 }
                 
                 console.log('🔄 جاري تحميل الإعدادات من:', configUrl);
@@ -4697,7 +4697,7 @@ function reloadProductManagementWithActiveTab(productId, activeColor = null) {
             loadTokensList();
             updateCurrentRepoDisplay();
             
-            document.getElementById('newTokenRepo').value = 'Dz-Store/My-TTC';
+            document.getElementById('newTokenRepo').value = 'dz-one1/sanix-dz';
 document.getElementById('newTokenRepo').readOnly = true;
 document.getElementById('newTokenRepo').style.backgroundColor = '#f5f5f5';
 
