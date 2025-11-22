@@ -3,7 +3,7 @@ const STORE_CONFIG = {
     "5": {
       "name": "ddssd",
       "price": 2222,
-      "image": "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/product-5-1763830282318.jpg",
+      "image": "https://raw.githubusercontent.com/Dz-Store/My-TTC/main/images/product-5-1763830282318.jpg",
       "description": "",
       "availableSizes": [
         "S",
@@ -24,13 +24,13 @@ const STORE_CONFIG = {
       "colorImages": {
         "أسود": {
           "images": [
-            "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/product-5-أسود-1763830177600.jpg"
+            "https://raw.githubusercontent.com/Dz-Store/My-TTC/main/images/product-5-أسود-1763830177600.jpg"
           ],
           "ageRanges": []
         },
         "رمادي": {
           "images": [
-            "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/product-5-رمادي-1763831372225.jpg"
+            "https://raw.githubusercontent.com/Dz-Store/My-TTC/main/images/product-5-رمادي-1763831372225.jpg"
           ],
           "ageRanges": []
         }
@@ -302,7 +302,7 @@ const STORE_CONFIG = {
     "instagramUrl": "https://www.instagram.com/p/DJCtlffoxj9/?igsh=MWoyaGFkYXRicmJrMQ==",
     "messengerUrl": "https://www.instagram.com/p/DJCtlffoxj9/?igsh=MWoyaGFkYXRicmJrMQ==",
     "viberNumber": "https://www.instagram.com/p/DJCtlffoxj9/?igsh=MWoyaGFkYXRicmJrMQ==",
-    "logo": "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/store-logo-1763217953279-Screenshot_20250903-115403_Facebook.jpg",
+    "logo": "https://raw.githubusercontent.com/Dz-Store/WER/main/images/store-logo-1763217953279-Screenshot_20250903-115403_Facebook.jpg",
     "storeEmail": "benaakrabahcene@gmail.com",
     "storeDescription": "متجر Kids-Fav يقدم أحدث وأفخم موديلات ملابس الأطفال بتصاميم عصرية وأنيقة تناسب جميع المناسبات",
     "whatsappUrl": "https://wa.me/213671466489",
@@ -529,7 +529,7 @@ const STORE_CONFIG = {
       "name": "الاحمر",
       "price": 3000,
       "images": [
-        "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/color-1-1762969529778-1000043662.jpg"
+        "https://raw.githubusercontent.com/Dz-Store/WER/main/images/color-1-1762969529778-1000043662.jpg"
       ],
       "description": "مودال جيد بمواصفات أوربية",
       "availableSizes": [
@@ -553,7 +553,7 @@ const STORE_CONFIG = {
       "name": "ازرق",
       "price": 3000,
       "images": [
-        "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/color-2-1762969972266-1000041608.jpg"
+        "https://raw.githubusercontent.com/Dz-Store/WER/main/images/color-2-1762969972266-1000041608.jpg"
       ],
       "description": "مودال بمواصفات اوربية",
       "availableSizes": [
@@ -598,7 +598,7 @@ const STORE_CONFIG = {
   },
   "GITHUB_INTEGRATION": {
     "enabled": true,
-    "defaultRepo": "dz-one1/sanix-dz",
+    "defaultRepo": "Dz-Store/WER",
     "defaultBranch": "main",
     "defaultFolder": "images"
   },
