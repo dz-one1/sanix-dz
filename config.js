@@ -1,9 +1,9 @@
 const STORE_CONFIG = {
   "PRODUCTS": {
     "1": {
-      "name": "Uffugugug",
-      "price": 68686,
-      "image": "",
+      "name": "Bigger nike",
+      "price": 5800,
+      "image": "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/product-1-1763926812417.jpg",
       "description": "",
       "availableSizes": [
         "S1"
@@ -259,14 +259,16 @@ const STORE_CONFIG = {
     }
   },
   "DISCOUNTS": {
-    "enableQuantityDiscount": false,
-    "minQuantityForDiscount": 2,
-    "discountPerItem": 300,
-    "discountScope": "all",
-    "discountProducts": [],
+    "enableQuantityDiscount": true,
+    "minQuantityForDiscount": 1,
+    "discountPerItem": 800,
+    "discountScope": "selected",
+    "discountProducts": [
+      1
+    ],
     "enablePromotionalDiscount": false,
     "promotionalDiscountPercent": 20,
-    "promotionalDiscountedPrice": 0,
+    "promotionalDiscountedPrice": null,
     "promoDiscountScope": "all",
     "promoDiscountProducts": []
   },
