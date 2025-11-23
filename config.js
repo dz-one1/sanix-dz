@@ -288,9 +288,9 @@ const STORE_CONFIG = {
     "whatsappUrl": ""
   },
   "GOOGLE_SHEETS": {
-    "url": "",
+    "url": "https://docs.google.com/spreadsheets/d/1ostnWuYQnG4KwkbKCRW1MHw5wJNBTAA8NsvIh7RIfx8/edit?gid=0#gid=0",
     "description": "",
-    "autoUpdate": false
+    "autoUpdate": true
   },
   "AVAILABLE_COLORS": [
     "أبيض",
