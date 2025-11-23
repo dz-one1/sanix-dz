@@ -3905,15 +3905,19 @@ function reloadProductManagementWithActiveTab(productId, activeColor = null) {
 
         // الحصول على المستودع الافتراضي
         function getDefaultRepo() {
-    // استخدام localStorage المباشر
-    const currentTokens = JSON.parse(localStorage.getItem('github_tokens') || '{}');
-    const currentDefaultRepo = localStorage.getItem('default_repo') || '';
+    // تحديث tokens من localStorage أولاً
+    tokens = JSON.parse(localStorage.getItem('github_tokens') || '{}');
     
-    if (currentDefaultRepo && currentTokens[currentDefaultRepo]) {
+    // الحصول على المستودع الافتراضي من localStorage
+    let currentDefaultRepo = localStorage.getItem('default_repo') || '';
+    
+    // التحقق إذا كان المستودع الافتراضي موجود في tokens
+    if (currentDefaultRepo && tokens[currentDefaultRepo]) {
         return currentDefaultRepo;
     }
     
-    const availableRepos = Object.keys(currentTokens);
+    // إذا لم يكن موجوداً، استخدام أول توكن متاح
+    const availableRepos = Object.keys(tokens);
     if (availableRepos.length > 0) {
         const newDefault = availableRepos[0];
         localStorage.setItem('default_repo', newDefault);
@@ -3922,7 +3926,41 @@ function reloadProductManagementWithActiveTab(productId, activeColor = null) {
     
     return null;
 }
+        
+// دالة لمزامنة tokens مع localStorage
+function syncTokens() {
+    tokens = JSON.parse(localStorage.getItem('github_tokens') || '{}');
+}
 
+// استدعاء المزامنة في الدوال الهامة
+function updateCurrentRepoDisplay() {
+    syncTokens(); // المزامنة أولاً
+    
+    const displayElement = document.getElementById('currentRepoDisplay');
+    const repoNameElement = document.getElementById('currentRepoName');
+    
+    const currentRepo = getDefaultRepo();
+    
+    if (currentRepo && tokens[currentRepo]) {
+        repoNameElement.textContent = currentRepo;
+        displayElement.style.display = 'flex';
+    } else {
+        repoNameElement.textContent = 'لم يتم اختيار مستودع';
+        displayElement.style.display = 'flex';
+    }
+}
+
+        function setActiveRepo(repo) {
+    if (tokens[repo]) {
+        localStorage.setItem('default_repo', repo);
+        updateCurrentRepoDisplay();
+        showNotification(`تم تعيين ${repo} كمستودع نشط`, 'success');
+        
+        // إعادة تحميل الإحصائيات والعناصر المعتمدة على المستودع
+        updateStats();
+    }
+}
+        
 
         // حفظ المستودع الافتراضي
         function setDefaultRepo(repo) {
