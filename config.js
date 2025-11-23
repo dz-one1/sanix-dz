@@ -1,13 +1,26 @@
 const STORE_CONFIG = {
   "PRODUCTS": {
     "1": {
-      "name": "",
-      "price": 0,
+      "name": "Uffugugug",
+      "price": 68686,
       "image": "",
       "description": "",
-      "availableSizes": [],
+      "availableSizes": [
+        "S1"
+      ],
       "availableColors": [],
-      "ageRanges": [],
+      "ageRanges": [
+        {
+          "ageFrom": "A",
+          "ageTo": "A",
+          "size": "S"
+        },
+        {
+          "ageFrom": "A",
+          "ageTo": "A",
+          "size": "M"
+        }
+      ],
       "colorImages": {}
     }
   },
@@ -322,84 +335,84 @@ const STORE_CONFIG = {
       "heightTo": 160,
       "weightFrom": 50,
       "weightTo": 70,
-      "enabled": false
+      "enabled": true
     },
     "39": {
       "heightFrom": 152,
       "heightTo": 162,
       "weightFrom": 53,
       "weightTo": 74,
-      "enabled": false
+      "enabled": true
     },
     "40": {
       "heightFrom": 154,
       "heightTo": 164,
       "weightFrom": 56,
       "weightTo": 78,
-      "enabled": false
+      "enabled": true
     },
     "41": {
       "heightFrom": 156,
       "heightTo": 166,
       "weightFrom": 59,
       "weightTo": 82,
-      "enabled": false
+      "enabled": true
     },
     "42": {
       "heightFrom": 158,
       "heightTo": 168,
       "weightFrom": 62,
       "weightTo": 86,
-      "enabled": false
+      "enabled": true
     },
     "43": {
       "heightFrom": 160,
       "heightTo": 170,
       "weightFrom": 65,
       "weightTo": 90,
-      "enabled": false
+      "enabled": true
     },
     "44": {
       "heightFrom": 162,
       "heightTo": 172,
       "weightFrom": 68,
       "weightTo": 94,
-      "enabled": false
+      "enabled": true
     },
     "45": {
       "heightFrom": 164,
       "heightTo": 174,
       "weightFrom": 71,
       "weightTo": 98,
-      "enabled": false
+      "enabled": true
     },
     "46": {
       "heightFrom": 166,
       "heightTo": 176,
       "weightFrom": 74,
       "weightTo": 102,
-      "enabled": false
+      "enabled": true
     },
     "47": {
       "heightFrom": 168,
       "heightTo": 178,
       "weightFrom": 77,
       "weightTo": 106,
-      "enabled": false
+      "enabled": true
     },
     "48": {
       "heightFrom": 170,
       "heightTo": 180,
       "weightFrom": 80,
       "weightTo": 110,
-      "enabled": false
+      "enabled": true
     },
     "49": {
       "heightFrom": 172,
       "heightTo": 182,
       "weightFrom": 83,
       "weightTo": 114,
-      "enabled": false
+      "enabled": true
     },
     "XS": {
       "heightFrom": 150,
@@ -455,49 +468,49 @@ const STORE_CONFIG = {
       "heightTo": 180,
       "weightFrom": 50,
       "weightTo": 80,
-      "enabled": false
+      "enabled": true
     },
     "S2": {
       "heightFrom": 160,
       "heightTo": 180,
       "weightFrom": 50,
       "weightTo": 80,
-      "enabled": false
+      "enabled": true
     },
     "S3": {
       "heightFrom": 160,
       "heightTo": 180,
       "weightFrom": 50,
       "weightTo": 80,
-      "enabled": false
+      "enabled": true
     },
     "M1": {
       "heightFrom": 160,
       "heightTo": 180,
       "weightFrom": 50,
       "weightTo": 80,
-      "enabled": false
+      "enabled": true
     },
     "M2": {
       "heightFrom": 160,
       "heightTo": 180,
       "weightFrom": 50,
       "weightTo": 80,
-      "enabled": false
+      "enabled": true
     },
     "M3": {
       "heightFrom": 160,
       "heightTo": 180,
       "weightFrom": 50,
       "weightTo": 80,
-      "enabled": false
+      "enabled": true
     },
     "XXXL": {
       "heightFrom": 195,
       "heightTo": 210,
       "weightFrom": 105,
       "weightTo": 140,
-      "enabled": false
+      "enabled": true
     }
   }
 };
