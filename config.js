@@ -311,84 +311,84 @@ const STORE_CONFIG = {
       "heightTo": 160,
       "weightFrom": 50,
       "weightTo": 70,
-      "enabled": true
+      "enabled": false
     },
     "39": {
       "heightFrom": 152,
       "heightTo": 162,
       "weightFrom": 53,
       "weightTo": 74,
-      "enabled": true
+      "enabled": false
     },
     "40": {
       "heightFrom": 154,
       "heightTo": 164,
       "weightFrom": 56,
       "weightTo": 78,
-      "enabled": true
+      "enabled": false
     },
     "41": {
       "heightFrom": 156,
       "heightTo": 166,
       "weightFrom": 59,
       "weightTo": 82,
-      "enabled": true
+      "enabled": false
     },
     "42": {
       "heightFrom": 158,
       "heightTo": 168,
       "weightFrom": 62,
       "weightTo": 86,
-      "enabled": true
+      "enabled": false
     },
     "43": {
       "heightFrom": 160,
       "heightTo": 170,
       "weightFrom": 65,
       "weightTo": 90,
-      "enabled": true
+      "enabled": false
     },
     "44": {
       "heightFrom": 162,
       "heightTo": 172,
       "weightFrom": 68,
       "weightTo": 94,
-      "enabled": true
+      "enabled": false
     },
     "45": {
       "heightFrom": 164,
       "heightTo": 174,
       "weightFrom": 71,
       "weightTo": 98,
-      "enabled": true
+      "enabled": false
     },
     "46": {
       "heightFrom": 166,
       "heightTo": 176,
       "weightFrom": 74,
       "weightTo": 102,
-      "enabled": true
+      "enabled": false
     },
     "47": {
       "heightFrom": 168,
       "heightTo": 178,
       "weightFrom": 77,
       "weightTo": 106,
-      "enabled": true
+      "enabled": false
     },
     "48": {
       "heightFrom": 170,
       "heightTo": 180,
       "weightFrom": 80,
       "weightTo": 110,
-      "enabled": true
+      "enabled": false
     },
     "49": {
       "heightFrom": 172,
       "heightTo": 182,
       "weightFrom": 83,
       "weightTo": 114,
-      "enabled": true
+      "enabled": false
     },
     "S": {
       "heightFrom": 160,
@@ -430,49 +430,49 @@ const STORE_CONFIG = {
       "heightTo": 180,
       "weightFrom": 50,
       "weightTo": 80,
-      "enabled": true
+      "enabled": false
     },
     "S2": {
       "heightFrom": 160,
       "heightTo": 180,
       "weightFrom": 50,
       "weightTo": 80,
-      "enabled": true
+      "enabled": false
     },
     "S3": {
       "heightFrom": 160,
       "heightTo": 180,
       "weightFrom": 50,
       "weightTo": 80,
-      "enabled": true
+      "enabled": false
     },
     "M1": {
       "heightFrom": 160,
       "heightTo": 180,
       "weightFrom": 50,
       "weightTo": 80,
-      "enabled": true
+      "enabled": false
     },
     "M2": {
       "heightFrom": 160,
       "heightTo": 180,
       "weightFrom": 50,
       "weightTo": 80,
-      "enabled": true
+      "enabled": false
     },
     "M3": {
       "heightFrom": 160,
       "heightTo": 180,
       "weightFrom": 50,
       "weightTo": 80,
-      "enabled": true
+      "enabled": false
     },
     "XXXL": {
       "heightFrom": 195,
       "heightTo": 210,
       "weightFrom": 105,
       "weightTo": 140,
-      "enabled": true
+      "enabled": false
     }
   }
 };
