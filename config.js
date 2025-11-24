@@ -331,7 +331,7 @@ const STORE_CONFIG = {
       "0795511986",
       "0778506974"
     ],
-    "logo": "",
+    "logo": "SANIK DZ",
     "facebookUrl": "",
     "instagramUrl": "",
     "messengerUrl": "",
