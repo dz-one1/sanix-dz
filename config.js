@@ -395,7 +395,7 @@ const STORE_CONFIG = {
       "heightTo": 175,
       "weightFrom": 50,
       "weightTo": 65,
-      "enabled": true
+      "enabled": false
     },
     "M": {
       "heightFrom": 170,
