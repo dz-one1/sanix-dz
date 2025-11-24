@@ -1,7 +1,7 @@
 const STORE_CONFIG = {
   "PRODUCTS": {
     "1": {
-      "name": "ensnbel nike",
+      "name": "ensomble nike ziper shirt +nike baggy jogger",
       "price": 5800,
       "image": "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/product-1-1764008520560.jpg",
       "description": "",
@@ -23,23 +23,23 @@ const STORE_CONFIG = {
           ],
           "ageRanges": [
             {
-              "ageFrom": "a",
-              "ageTo": "a",
+              "ageFrom": "A",
+              "ageTo": "A",
               "size": "S"
             },
             {
-              "ageFrom": "a",
-              "ageTo": "a",
+              "ageFrom": "A",
+              "ageTo": "A",
               "size": "M"
             },
             {
-              "ageFrom": "a",
-              "ageTo": "a",
+              "ageFrom": "A",
+              "ageTo": "A",
               "size": "L"
             },
             {
-              "ageFrom": "a",
-              "ageTo": "a",
+              "ageFrom": "A",
+              "ageTo": "A",
               "size": "XL"
             }
           ]
@@ -50,23 +50,23 @@ const STORE_CONFIG = {
           ],
           "ageRanges": [
             {
-              "ageFrom": "aa",
-              "ageTo": "a",
+              "ageFrom": "A",
+              "ageTo": "A",
               "size": "S"
             },
             {
-              "ageFrom": "a",
-              "ageTo": "a",
+              "ageFrom": "A",
+              "ageTo": "A",
               "size": "M"
             },
             {
-              "ageFrom": "a",
-              "ageTo": "a",
+              "ageFrom": "A",
+              "ageTo": "A",
               "size": "L"
             },
             {
-              "ageFrom": "a",
-              "ageTo": "a",
+              "ageFrom": "A",
+              "ageTo": "A",
               "size": "XL"
             }
           ]
@@ -328,14 +328,15 @@ const STORE_CONFIG = {
     "storeTitle": "👑 أحدث موديلات ",
     "tagline": "متجر أفخم الملابس",
     "phoneNumbers": [
-      "079551986 0778506974"
+      "0795511986",
+      "0778506974"
     ],
     "logo": "",
     "facebookUrl": "",
     "instagramUrl": "",
     "messengerUrl": "",
     "viberNumber": "",
-    "whatsappNumber": "079551985",
+    "whatsappNumber": "0795511986",
     "whatsappUrl": "https://wa.me/079551985"
   },
   "GOOGLE_SHEETS": {
