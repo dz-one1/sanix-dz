@@ -1,5 +1,79 @@
 const STORE_CONFIG = {
-  "PRODUCTS": {},
+  "PRODUCTS": {
+    "1": {
+      "name": "ensnbel nike",
+      "price": 5800,
+      "image": "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/product-1-1764008520560.jpg",
+      "description": "",
+      "availableSizes": [
+        "M",
+        "XL",
+        "L",
+        "S"
+      ],
+      "availableColors": [
+        "أسود",
+        "رمادي"
+      ],
+      "ageRanges": [],
+      "colorImages": {
+        "أسود": {
+          "images": [
+            "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/product-1-أسود-1764008955335.jpg"
+          ],
+          "ageRanges": [
+            {
+              "ageFrom": "a",
+              "ageTo": "a",
+              "size": "S"
+            },
+            {
+              "ageFrom": "a",
+              "ageTo": "a",
+              "size": "M"
+            },
+            {
+              "ageFrom": "a",
+              "ageTo": "a",
+              "size": "L"
+            },
+            {
+              "ageFrom": "a",
+              "ageTo": "a",
+              "size": "XL"
+            }
+          ]
+        },
+        "رمادي": {
+          "images": [
+            "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/product-1-رمادي-1764009436919.jpg"
+          ],
+          "ageRanges": [
+            {
+              "ageFrom": "aa",
+              "ageTo": "a",
+              "size": "S"
+            },
+            {
+              "ageFrom": "a",
+              "ageTo": "a",
+              "size": "M"
+            },
+            {
+              "ageFrom": "a",
+              "ageTo": "a",
+              "size": "L"
+            },
+            {
+              "ageFrom": "a",
+              "ageTo": "a",
+              "size": "XL"
+            }
+          ]
+        }
+      }
+    }
+  },
   "DELIVERY_PRICES": {
     "01 - أدرار": {
       "home": 1100,
@@ -235,14 +309,16 @@ const STORE_CONFIG = {
     }
   },
   "DISCOUNTS": {
-    "enableQuantityDiscount": false,
-    "minQuantityForDiscount": 2,
-    "discountPerItem": 300,
-    "discountScope": "all",
-    "discountProducts": [],
+    "enableQuantityDiscount": true,
+    "minQuantityForDiscount": 1,
+    "discountPerItem": 800,
+    "discountScope": "selected",
+    "discountProducts": [
+      1
+    ],
     "enablePromotionalDiscount": false,
     "promotionalDiscountPercent": 20,
-    "promotionalDiscountedPrice": 0,
+    "promotionalDiscountedPrice": null,
     "promoDiscountScope": "all",
     "promoDiscountProducts": []
   },
@@ -252,16 +328,15 @@ const STORE_CONFIG = {
     "storeTitle": "👑 أحدث موديلات ",
     "tagline": "متجر أفخم الملابس",
     "phoneNumbers": [
-      "0xxxxxxxxx",
-      "0xxxxxxxxx"
+      "079551986 0778506974"
     ],
     "logo": "",
     "facebookUrl": "",
     "instagramUrl": "",
     "messengerUrl": "",
     "viberNumber": "",
-    "whatsappNumber": "",
-    "whatsappUrl": ""
+    "whatsappNumber": "079551985",
+    "whatsappUrl": "https://wa.me/079551985"
   },
   "GOOGLE_SHEETS": {
     "url": "",
@@ -395,7 +470,7 @@ const STORE_CONFIG = {
       "heightTo": 175,
       "weightFrom": 50,
       "weightTo": 65,
-      "enabled": false
+      "enabled": true
     },
     "M": {
       "heightFrom": 170,
@@ -423,7 +498,7 @@ const STORE_CONFIG = {
       "heightTo": 205,
       "weightFrom": 95,
       "weightTo": 120,
-      "enabled": true
+      "enabled": false
     },
     "S1": {
       "heightFrom": 160,
