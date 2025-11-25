@@ -1179,12 +1179,12 @@
         }
         /* أنماط جديدة لتوجيه الحقول لليسار */
 .social-media-inputs {
-    text-align: left !important;
+    text-align: right !important;
     direction: ltr !important;
 }
 
 .available-sizes-input {
-    text-align: left !important;
+    text-align: right !important;
     direction: ltr !important;
 }
 
@@ -1195,18 +1195,26 @@
 
 /* التأكد من أن النص داخل الحقول يبدأ من اليسار */
 .social-media-inputs::placeholder,
-.available-sizes-input::placeholder,
-.available-colors-input::placeholder {
+.available-sizes-input::placeholder{
+    text-align: right;
+    direction: ltr;
+
+  .available-colors-input::placeholder {
     text-align: left;
     direction: ltr;
 }
 
 /* التأكد من أن النص المدخل يبدأ من اليسار */
 .social-media-inputs:not(:placeholder-shown),
-.available-sizes-input:not(:placeholder-shown),
+.available-sizes-input:not(:placeholder-shown){
+
+    text-align: right;
+    direction: ltr;
+
 .available-colors-input:not(:placeholder-shown) {
     text-align: left;
     direction: ltr;
+    
 }
         
         @media (max-width: 768px) {
