@@ -3937,6 +3937,124 @@ function reloadProductManagementWithActiveTab(productId, activeColor = null) {
             ageToInput.value = '';
         }
 
+        // دوال إدارة القياسات
+function addNewSize() {
+    const newSizeInput = document.getElementById('newSizeInput');
+    const sizeValue = newSizeInput.value.trim();
+    
+    if (!sizeValue) {
+        showNotification('يرجى إدخال مقاس', 'error');
+        return;
+    }
+    
+    if (CONFIG.AVAILABLE_SIZES.includes(sizeValue)) {
+        showNotification('هذا المقاس موجود مسبقاً', 'error');
+        return;
+    }
+    
+    CONFIG.AVAILABLE_SIZES.push(sizeValue);
+    STORE_CONFIG.AVAILABLE_SIZES = [...CONFIG.AVAILABLE_SIZES];
+    
+    newSizeInput.value = '';
+    loadSizesList();
+    showNotification('تم إضافة المقاس بنجاح', 'success');
+}
+
+function removeSize(size) {
+    showConfirmModal(
+        `هل أنت متأكد من حذف المقاس "${size}"؟`,
+        () => {
+            CONFIG.AVAILABLE_SIZES = CONFIG.AVAILABLE_SIZES.filter(s => s !== size);
+            STORE_CONFIG.AVAILABLE_SIZES = [...CONFIG.AVAILABLE_SIZES];
+            
+            loadSizesList();
+            showNotification('تم حذف المقاس', 'success');
+        }
+    );
+}
+
+function loadSizesList() {
+    const sizesList = document.getElementById('sizesList');
+    sizesList.innerHTML = '';
+    
+    CONFIG.AVAILABLE_SIZES.forEach(size => {
+        sizesList.innerHTML += `
+            <div class="size-item" style="background: white; padding: 10px; border-radius: 8px; border: 2px solid var(--border-color); display: flex; justify-content: space-between; align-items: center;">
+                <span>${size}</span>
+                <button class="btn btn-danger small-btn" onclick="removeSize('${size}')">
+                    <i class="fas fa-trash"></i>
+                </button>
+            </div>
+        `;
+    });
+}
+
+// دوال إدارة الألوان
+function addNewColor() {
+    const newColorInput = document.getElementById('newColorInput');
+    const colorValue = newColorInput.value.trim();
+    
+    if (!colorValue) {
+        showNotification('يرجى إدخال لون', 'error');
+        return;
+    }
+    
+    if (CONFIG.AVAILABLE_COLORS.includes(colorValue)) {
+        showNotification('هذا اللون موجود مسبقاً', 'error');
+        return;
+    }
+    
+    CONFIG.AVAILABLE_COLORS.push(colorValue);
+    STORE_CONFIG.AVAILABLE_COLORS = [...CONFIG.AVAILABLE_COLORS];
+    
+    newColorInput.value = '';
+    loadColorsList();
+    showNotification('تم إضافة اللون بنجاح', 'success');
+}
+
+function removeColor(color) {
+    showConfirmModal(
+        `هل أنت متأكد من حذف اللون "${color}"؟`,
+        () => {
+            CONFIG.AVAILABLE_COLORS = CONFIG.AVAILABLE_COLORS.filter(c => c !== color);
+            STORE_CONFIG.AVAILABLE_COLORS = [...CONFIG.AVAILABLE_COLORS];
+            
+            loadColorsList();
+            showNotification('تم حذف اللون', 'success');
+        }
+    );
+}
+
+function loadColorsList() {
+    const colorsList = document.getElementById('colorsList');
+    colorsList.innerHTML = '';
+    
+    CONFIG.AVAILABLE_COLORS.forEach(color => {
+        colorsList.innerHTML += `
+            <div class="color-item" style="background: white; padding: 10px; border-radius: 8px; border: 2px solid var(--border-color); display: flex; justify-content: space-between; align-items: center;">
+                <span>${color}</span>
+                <button class="btn btn-danger small-btn" onclick="removeColor('${color}')">
+                    <i class="fas fa-trash"></i>
+                </button>
+            </div>
+        `;
+    });
+}
+
+// تحديث دوال الحفظ
+function saveAvailableSizes() {
+    STORE_CONFIG.AVAILABLE_SIZES = [...CONFIG.AVAILABLE_SIZES];
+    saveConfig();
+    showNotification('تم حفظ القياسات بنجاح', 'success');
+}
+
+function saveAvailableColors() {
+    STORE_CONFIG.AVAILABLE_COLORS = [...CONFIG.AVAILABLE_COLORS];
+    saveConfig();
+    showNotification('تم حفظ الألوان بنجاح', 'success');
+}
+    
+
         // =============================================================================
         // 🔄 تحديث الدوال الأخرى
         // =============================================================================
