@@ -1,79 +1,5 @@
 const STORE_CONFIG = {
-  "PRODUCTS": {
-    "1": {
-      "name": "ensomble nike ziper shirt +nike baggy jogger",
-      "price": 5800,
-      "image": "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/product-1-1764008520560.jpg",
-      "description": "",
-      "availableSizes": [
-        "M",
-        "XL",
-        "L",
-        "S"
-      ],
-      "availableColors": [
-        "أسود",
-        "رمادي"
-      ],
-      "ageRanges": [],
-      "colorImages": {
-        "أسود": {
-          "images": [
-            "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/product-1-أسود-1764008955335.jpg"
-          ],
-          "ageRanges": [
-            {
-              "ageFrom": "A",
-              "ageTo": "A",
-              "size": "S"
-            },
-            {
-              "ageFrom": "A",
-              "ageTo": "A",
-              "size": "M"
-            },
-            {
-              "ageFrom": "A",
-              "ageTo": "A",
-              "size": "L"
-            },
-            {
-              "ageFrom": "A",
-              "ageTo": "A",
-              "size": "XL"
-            }
-          ]
-        },
-        "رمادي": {
-          "images": [
-            "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/product-1-رمادي-1764009436919.jpg"
-          ],
-          "ageRanges": [
-            {
-              "ageFrom": "A",
-              "ageTo": "A",
-              "size": "S"
-            },
-            {
-              "ageFrom": "A",
-              "ageTo": "A",
-              "size": "M"
-            },
-            {
-              "ageFrom": "A",
-              "ageTo": "A",
-              "size": "L"
-            },
-            {
-              "ageFrom": "A",
-              "ageTo": "A",
-              "size": "XL"
-            }
-          ]
-        }
-      }
-    }
-  },
+  "PRODUCTS": {},
   "DELIVERY_PRICES": {
     "01 - أدرار": {
       "home": 1100,
@@ -84,8 +10,8 @@ const STORE_CONFIG = {
       "desk": 400
     },
     "03 - الأغواط": {
-      "home": 900,
-      "desk": 500
+      "home": 1000,
+      "desk": 600
     },
     "04 - أم البواقي": {
       "home": 650,
@@ -309,16 +235,14 @@ const STORE_CONFIG = {
     }
   },
   "DISCOUNTS": {
-    "enableQuantityDiscount": true,
-    "minQuantityForDiscount": 1,
-    "discountPerItem": 800,
-    "discountScope": "selected",
-    "discountProducts": [
-      1
-    ],
+    "enableQuantityDiscount": false,
+    "minQuantityForDiscount": 2,
+    "discountPerItem": 300,
+    "discountScope": "all",
+    "discountProducts": [],
     "enablePromotionalDiscount": false,
     "promotionalDiscountPercent": 20,
-    "promotionalDiscountedPrice": null,
+    "promotionalDiscountedPrice": 0,
     "promoDiscountScope": "all",
     "promoDiscountProducts": []
   },
@@ -328,16 +252,16 @@ const STORE_CONFIG = {
     "storeTitle": "👑 أحدث موديلات ",
     "tagline": "متجر أفخم الملابس",
     "phoneNumbers": [
-      "0795511986",
-      "0778506974"
+      "0xxxxxxxxx",
+      "0xxxxxxxxx"
     ],
-    "logo": "SANIK DZ",
+    "logo": "",
     "facebookUrl": "",
     "instagramUrl": "",
     "messengerUrl": "",
     "viberNumber": "",
-    "whatsappNumber": "0795511986",
-    "whatsappUrl": "https://wa.me/079551985"
+    "whatsappNumber": "",
+    "whatsappUrl": ""
   },
   "GOOGLE_SHEETS": {
     "url": "",
@@ -471,7 +395,7 @@ const STORE_CONFIG = {
       "heightTo": 175,
       "weightFrom": 50,
       "weightTo": 65,
-      "enabled": true
+      "enabled": false
     },
     "M": {
       "heightFrom": 170,
@@ -499,7 +423,7 @@ const STORE_CONFIG = {
       "heightTo": 205,
       "weightFrom": 95,
       "weightTo": 120,
-      "enabled": false
+      "enabled": true
     },
     "S1": {
       "heightFrom": 160,
