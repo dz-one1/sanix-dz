@@ -1,5 +1,16 @@
 const STORE_CONFIG = {
-  "PRODUCTS": {},
+  "PRODUCTS": {
+    "1": {
+      "name": "Ensemble Nike jegger ",
+      "price": 5800,
+      "image": "",
+      "description": "",
+      "availableSizes": [],
+      "availableColors": [],
+      "ageRanges": [],
+      "colorImages": {}
+    }
+  },
   "DELIVERY_PRICES": {
     "01 - أدرار": {
       "home": 1100,
@@ -247,10 +258,10 @@ const STORE_CONFIG = {
     "promoDiscountProducts": []
   },
   "STORE_INFO": {
-    "name": "",
+    "name": "SANIX-DZ",
     "storeIcon": "👑",
     "storeTitle": "👑 أحدث موديلات ",
-    "tagline": "متجر أفخم الملابس",
+    "tagline": "متجر    SANIX-DZ",
     "phoneNumbers": [
       "0xxxxxxxxx",
       "0xxxxxxxxx"
