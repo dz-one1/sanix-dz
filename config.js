@@ -1,21 +1,14 @@
 const STORE_CONFIG = {
   "PRODUCTS": {
-    "1": {
+    "2": {
       "name": "",
       "price": 0,
-      "image": "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/product-1-1764244476857-modal1.jpeg",
+      "image": "",
       "description": "",
       "availableSizes": [],
       "availableColors": [],
       "ageRanges": [],
-      "colorImages": {
-        "رمادي": {
-          "images": [
-            "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/product-1-رمادي-1764245655736-modal2.jpeg"
-          ],
-          "ageRanges": []
-        }
-      }
+      "colorImages": {}
     }
   },
   "DELIVERY_PRICES": {
