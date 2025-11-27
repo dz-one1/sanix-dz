@@ -3,7 +3,7 @@ const STORE_CONFIG = {
     "1": {
       "name": "Ensemble Nike jegger ",
       "price": 5800,
-      "image": "",
+      "image": "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/product-1-1764222822013-product-6-1763847937638.jpg",
       "description": "",
       "availableSizes": [],
       "availableColors": [],
@@ -246,14 +246,16 @@ const STORE_CONFIG = {
     }
   },
   "DISCOUNTS": {
-    "enableQuantityDiscount": false,
-    "minQuantityForDiscount": 2,
-    "discountPerItem": 300,
-    "discountScope": "all",
-    "discountProducts": [],
+    "enableQuantityDiscount": true,
+    "minQuantityForDiscount": 1,
+    "discountPerItem": 800,
+    "discountScope": "selected",
+    "discountProducts": [
+      1
+    ],
     "enablePromotionalDiscount": false,
     "promotionalDiscountPercent": 20,
-    "promotionalDiscountedPrice": 0,
+    "promotionalDiscountedPrice": null,
     "promoDiscountScope": "all",
     "promoDiscountProducts": []
   },
