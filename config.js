@@ -8,7 +8,14 @@ const STORE_CONFIG = {
       "availableSizes": [],
       "availableColors": [],
       "ageRanges": [],
-      "colorImages": {}
+      "colorImages": {
+        "رمادي": {
+          "images": [
+            "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/product-1-رمادي-1764245655736-modal2.jpeg"
+          ],
+          "ageRanges": []
+        }
+      }
     }
   },
   "DELIVERY_PRICES": {
@@ -266,7 +273,7 @@ const STORE_CONFIG = {
       "0xxxxxxxxx",
       "0xxxxxxxxx"
     ],
-    "logo": "",
+    "logo": "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/store-logo-1764245727709-product-store-logo-1763847608230.jpg",
     "facebookUrl": "",
     "instagramUrl": "",
     "messengerUrl": "",
