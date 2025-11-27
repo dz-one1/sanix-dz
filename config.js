@@ -260,7 +260,7 @@ const STORE_CONFIG = {
   "STORE_INFO": {
     "name": "SANIX-DZ",
     "storeIcon": "👑",
-    "storeTitle": "👑 أحدث موديلات ",
+    "storeTitle": "متجر    SANIX-DZ",
     "tagline": "متجر    SANIX-DZ",
     "phoneNumbers": [
       "0xxxxxxxxx",
