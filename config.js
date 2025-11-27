@@ -266,7 +266,7 @@ const STORE_CONFIG = {
       "0xxxxxxxxx",
       "0xxxxxxxxx"
     ],
-    "logo": "",
+    "logo": "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/store-logo-1764222410306-product-store-logo-1763847608230.jpg",
     "facebookUrl": "",
     "instagramUrl": "",
     "messengerUrl": "",
