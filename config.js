@@ -9,18 +9,6 @@ const STORE_CONFIG = {
       "availableColors": [],
       "ageRanges": [],
       "colorImages": {
-        "رمادي": {
-          "images": [
-            "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/product-2-رمادي-1764258646926-product-6-رمادي-1763847452898.jpg"
-          ],
-          "ageRanges": [
-            {
-              "ageFrom": "A",
-              "ageTo": "A",
-              "size": "S"
-            }
-          ]
-        },
         "أسود": {
           "images": [
             "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/product-2-أسود-1764258720300-product-6-أسود-1763847371770.jpg"
