@@ -1,9 +1,9 @@
 const STORE_CONFIG = {
   "PRODUCTS": {
     "1": {
-      "name": "Http",
-      "price": 5000,
-      "image": "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/product-1-1764236419706-modal2.jpeg",
+      "name": "",
+      "price": 0,
+      "image": "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/product-1-1764243136224-modal2.jpeg",
       "description": "",
       "availableSizes": [],
       "availableColors": [],
