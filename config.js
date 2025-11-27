@@ -1,20 +1,12 @@
 const STORE_CONFIG = {
   "PRODUCTS": {
     "1": {
-      "name": "Ensemble Nike jegger ",
-      "price": 5800,
-      "image": "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/product-1-1764222822013-product-6-1763847937638.jpg",
+      "name": "Http",
+      "price": 5000,
+      "image": "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/product-1-1764236198127-modal1.jpeg",
       "description": "",
-      "availableSizes": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "availableColors": [
-        "أسود",
-        "رمادي"
-      ],
+      "availableSizes": [],
+      "availableColors": [],
       "ageRanges": [],
       "colorImages": {}
     }
@@ -254,29 +246,27 @@ const STORE_CONFIG = {
     }
   },
   "DISCOUNTS": {
-    "enableQuantityDiscount": true,
-    "minQuantityForDiscount": 1,
-    "discountPerItem": 800,
-    "discountScope": "selected",
-    "discountProducts": [
-      1
-    ],
+    "enableQuantityDiscount": false,
+    "minQuantityForDiscount": 2,
+    "discountPerItem": 300,
+    "discountScope": "all",
+    "discountProducts": [],
     "enablePromotionalDiscount": false,
     "promotionalDiscountPercent": 20,
-    "promotionalDiscountedPrice": null,
+    "promotionalDiscountedPrice": 0,
     "promoDiscountScope": "all",
     "promoDiscountProducts": []
   },
   "STORE_INFO": {
-    "name": "SANIX-DZ",
+    "name": "",
     "storeIcon": "👑",
-    "storeTitle": "متجر    SANIX-DZ",
-    "tagline": "متجر    SANIX-DZ",
+    "storeTitle": "👑 أحدث موديلات ",
+    "tagline": "متجر أفخم الملابس",
     "phoneNumbers": [
       "0xxxxxxxxx",
       "0xxxxxxxxx"
     ],
-    "logo": "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/store-logo-1764222410306-product-store-logo-1763847608230.jpg",
+    "logo": "",
     "facebookUrl": "",
     "instagramUrl": "",
     "messengerUrl": "",
