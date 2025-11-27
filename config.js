@@ -3,7 +3,7 @@ const STORE_CONFIG = {
     "1": {
       "name": "",
       "price": 0,
-      "image": "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/product-1-1764243136224-modal2.jpeg",
+      "image": "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/product-1-1764244476857-modal1.jpeg",
       "description": "",
       "availableSizes": [],
       "availableColors": [],
