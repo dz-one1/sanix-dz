@@ -1,23 +1,73 @@
 const STORE_CONFIG = {
   "PRODUCTS": {
-    "2": {
-      "name": "",
-      "price": 0,
-      "image": "",
+    "1": {
+      "name": "ensomble nike ziper shirt +nike baggy jogger",
+      "price": 5800,
+      "image": "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/product-1-1764008520560.jpg",
       "description": "",
-      "availableSizes": [],
-      "availableColors": [],
+      "availableSizes": [
+        "M",
+        "XL",
+        "L",
+        "S"
+      ],
+      "availableColors": [
+        "أسود",
+        "رمادي"
+      ],
       "ageRanges": [],
       "colorImages": {
         "أسود": {
           "images": [
-            "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/product-2-أسود-1764258720300-product-6-أسود-1763847371770.jpg"
+            "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/product-1-أسود-1764008955335.jpg"
           ],
           "ageRanges": [
             {
               "ageFrom": "A",
               "ageTo": "A",
+              "size": "S"
+            },
+            {
+              "ageFrom": "A",
+              "ageTo": "A",
               "size": "M"
+            },
+            {
+              "ageFrom": "A",
+              "ageTo": "A",
+              "size": "L"
+            },
+            {
+              "ageFrom": "A",
+              "ageTo": "A",
+              "size": "XL"
+            }
+          ]
+        },
+        "رمادي": {
+          "images": [
+            "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/product-1-رمادي-1764009436919.jpg"
+          ],
+          "ageRanges": [
+            {
+              "ageFrom": "A",
+              "ageTo": "A",
+              "size": "S"
+            },
+            {
+              "ageFrom": "A",
+              "ageTo": "A",
+              "size": "M"
+            },
+            {
+              "ageFrom": "A",
+              "ageTo": "A",
+              "size": "L"
+            },
+            {
+              "ageFrom": "A",
+              "ageTo": "A",
+              "size": "XL"
             }
           ]
         }
@@ -34,8 +84,8 @@ const STORE_CONFIG = {
       "desk": 400
     },
     "03 - الأغواط": {
-      "home": 1000,
-      "desk": 600
+      "home": 900,
+      "desk": 500
     },
     "04 - أم البواقي": {
       "home": 650,
@@ -259,14 +309,16 @@ const STORE_CONFIG = {
     }
   },
   "DISCOUNTS": {
-    "enableQuantityDiscount": false,
-    "minQuantityForDiscount": 2,
-    "discountPerItem": 300,
-    "discountScope": "all",
-    "discountProducts": [],
+    "enableQuantityDiscount": true,
+    "minQuantityForDiscount": 1,
+    "discountPerItem": 800,
+    "discountScope": "selected",
+    "discountProducts": [
+      1
+    ],
     "enablePromotionalDiscount": false,
     "promotionalDiscountPercent": 20,
-    "promotionalDiscountedPrice": 0,
+    "promotionalDiscountedPrice": null,
     "promoDiscountScope": "all",
     "promoDiscountProducts": []
   },
@@ -276,16 +328,16 @@ const STORE_CONFIG = {
     "storeTitle": "👑 أحدث موديلات ",
     "tagline": "متجر أفخم الملابس",
     "phoneNumbers": [
-      "0xxxxxxxxx",
-      "0xxxxxxxxx"
+      "0795511986",
+      "0778506974"
     ],
-    "logo": "",
+    "logo": "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/product-store-logo-1764256276079.jpg",
     "facebookUrl": "",
     "instagramUrl": "",
     "messengerUrl": "",
     "viberNumber": "",
-    "whatsappNumber": "",
-    "whatsappUrl": ""
+    "whatsappNumber": "0795511986",
+    "whatsappUrl": "https://wa.me/079551985"
   },
   "GOOGLE_SHEETS": {
     "url": "",
@@ -419,7 +471,7 @@ const STORE_CONFIG = {
       "heightTo": 175,
       "weightFrom": 50,
       "weightTo": 65,
-      "enabled": false
+      "enabled": true
     },
     "M": {
       "heightFrom": 170,
@@ -447,7 +499,7 @@ const STORE_CONFIG = {
       "heightTo": 205,
       "weightFrom": 95,
       "weightTo": 120,
-      "enabled": true
+      "enabled": false
     },
     "S1": {
       "heightFrom": 160,
