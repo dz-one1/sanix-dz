@@ -72,6 +72,79 @@ const STORE_CONFIG = {
           ]
         }
       }
+    },
+    "3": {
+      "name": "baggy jogggers",
+      "price": 2300,
+      "image": "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/product-3-1764257649233.jpg",
+      "description": "baggy joggers",
+      "availableSizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "availableColors": [
+        "رمادي",
+        "أسود"
+      ],
+      "ageRanges": [],
+      "colorImages": {
+        "أسود": {
+          "images": [
+            "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/product-3-أسود-1764257840024.jpg"
+          ],
+          "ageRanges": [
+            {
+              "ageFrom": "A",
+              "ageTo": "A",
+              "size": "S"
+            },
+            {
+              "ageFrom": "A",
+              "ageTo": "A",
+              "size": "M"
+            },
+            {
+              "ageFrom": "A",
+              "ageTo": "A",
+              "size": "L"
+            },
+            {
+              "ageFrom": "A",
+              "ageTo": "A",
+              "size": "XL"
+            }
+          ]
+        },
+        "رمادي": {
+          "images": [
+            "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/product-3-رمادي-1764257897618.jpg"
+          ],
+          "ageRanges": [
+            {
+              "ageFrom": "A",
+              "ageTo": "A",
+              "size": "S"
+            },
+            {
+              "ageFrom": "A",
+              "ageTo": "A",
+              "size": "M"
+            },
+            {
+              "ageFrom": "A",
+              "ageTo": "A",
+              "size": "L"
+            },
+            {
+              "ageFrom": "A",
+              "ageTo": "A",
+              "size": "XL"
+            }
+          ]
+        }
+      }
     }
   },
   "DELIVERY_PRICES": {
@@ -316,11 +389,13 @@ const STORE_CONFIG = {
     "discountProducts": [
       1
     ],
-    "enablePromotionalDiscount": false,
+    "enablePromotionalDiscount": true,
     "promotionalDiscountPercent": 20,
-    "promotionalDiscountedPrice": null,
-    "promoDiscountScope": "all",
-    "promoDiscountProducts": []
+    "promotionalDiscountedPrice": 2000,
+    "promoDiscountScope": "selected",
+    "promoDiscountProducts": [
+      3
+    ]
   },
   "STORE_INFO": {
     "name": "",
