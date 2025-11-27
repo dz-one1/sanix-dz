@@ -5,8 +5,16 @@ const STORE_CONFIG = {
       "price": 5800,
       "image": "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/product-1-1764222822013-product-6-1763847937638.jpg",
       "description": "",
-      "availableSizes": [],
-      "availableColors": [],
+      "availableSizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "availableColors": [
+        "أسود",
+        "رمادي"
+      ],
       "ageRanges": [],
       "colorImages": {}
     }
