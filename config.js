@@ -8,7 +8,14 @@ const STORE_CONFIG = {
       "availableSizes": [],
       "availableColors": [],
       "ageRanges": [],
-      "colorImages": {}
+      "colorImages": {
+        "رمادي": {
+          "images": [
+            "https://raw.githubusercontent.com/dz-one1/sanix-dz/main/images/product-2-رمادي-1764258646926-product-6-رمادي-1763847452898.jpg"
+          ],
+          "ageRanges": []
+        }
+      }
     }
   },
   "DELIVERY_PRICES": {
